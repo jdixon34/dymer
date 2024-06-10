@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Band/Artist Template</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<!-- Video Background Section -->
+<div class="video-background">
+    <div class="image-overlay">
+        <img src="img/Dymer%20Logo(white).png" alt="Overlay Image">
+    </div>
+    <video autoplay loop muted id="background-video">
+        <source src="../documentation/vid/splashvideoDYMER1.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+    <audio id="background-audio" src="./audio/STORM.mp3" autoplay loop></audio>
+    <button id="sound-toggle">Sound On/Off</button>
+</div>
+
+<!-- Navbar -->
+<header>
+    <nav class="navbar" id="navbar">
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#music-video">Music Video</a></li>
+            <li><a href="#story">Story</a></li>
+            <li><a href="#booking">Booking/Events</a></li>
+        </ul>
+    </nav>
+</header>
+
+<!-- Music Video Section -->
+<section id="music-video" class="section">
+    <div class="video-container">
+        <video controls>
+            <source src="your-music-video.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        <div class="video-description">
+            <h2>Music Video Title</h2>
+            <p>Short description of the music video and notable attributes of the band/artist.</p>
+        </div>
+    </div>
+</section>
+
+<!-- Story Section -->
+<section id="story" class="section">
+    <div class="story-container">
+        <img src="img/3againstwall.jpg" alt="Band/Artist Photo" class="story-image">
+        <div class="story-description">
+            <h2>Our Story</h2>
+            <p>A short story about the band/artist with high-quality photograph.</p>
+        </div>
+    </div>
+</section>
+
+<!-- Booking/Events Section -->
+<section id="booking" class="section">
+    <div class="booking-container">
+        <!-- Add your booking/event info here -->
+        <h2>Booking/Events</h2>
+    </div>
+</section>
+
+<!-- Floating Store Button -->
+<a href="your-store-link" class="store-button">Online Store</a>
+
+<script src="script.js"></script>
+</body>
+</html>
